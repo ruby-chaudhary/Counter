@@ -1,0 +1,35 @@
+body{
+    background-image: -webkit-linear-gradient(rgb(77, 108, 245), lightgreen);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+h1{
+    font-size: 6.5em;
+    padding-left: 0.5em;
+}
+
+button{
+    background-color: rgb(155, 34, 54);
+    width: 200px;
+    height: 60px;
+    border-radius: 0.6em;
+    padding: 0.5em;
+    color:rgb(249, 250, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+}
+
+#btn1{
+    background: rgb(189, 54, 4);
+}
+#btn2{
+    background: rgb(218, 149, 0);
+}
